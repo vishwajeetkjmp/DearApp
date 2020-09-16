@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textSize="30sp"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+      <Button
+          android:id="@+id/dialNumber"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Call Log"
+          />
+
+    <Button
+        android:id="@+id/toast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="toast"
+        />
+    <Button
+        android:id="@+id/showLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Location"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        />
+    <Button
+        android:id="@+id/openWebPage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login to Facebook"
+        />
+    <Button
+        android:id="@+id/viewIntent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Intent"
+            />
+
+    <Button
+        android:id="@+id/letsGetPro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login to Instagram"
+            />
+
+</LinearLayout>

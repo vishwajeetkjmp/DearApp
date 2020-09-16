@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+
+tools:context=".Main3Activity">
+
+    <Button
+        android:id="@+id/nikhil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call Nikhi"
+        />
+
+    <Button
+        android:id="@+id/gaurav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="call Gaurav"
+        />
+    <Button
+        android:id="@+id/ankit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="call Ankit"
+        />
+    <Button
+        android:id="@+id/sharma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="call Sharma"
+        />
+    <Button
+        android:id="@+id/vishwajeet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="call Admin "
+        />
+    <Button
+        android:id="@+id/rajat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="call rajat"
+        />
+    <Button
+        android:id="@+id/satyam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="call Sattu"
+        />
+    <Button
+        android:id="@+id/deepak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="call Deepak"
+        />
+    <Button
+        android:id="@+id/kartavya"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="call Kartavya"
+        />
+    <Button
+        android:id="@+id/rakesh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="call rakesh"
+        />
+    <Button
+        android:id="@+id/daddy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="call Daddy"
+        />
+
+
+</LinearLayout>
