@@ -75,33 +75,50 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (v.getId())
         {
             case R.id.dialNumber:
+                try{
                 Intent intent = new Intent(MainActivity.this,Main3Activity.class);
-                startActivity(intent);
+                startActivity(intent);}
+                catch(Exception e){
+                    Toast.makeText(this, "Error", Toast.LENGTH_SHORT).show();}
 
                 break;
             case R.id.toast:
-
+                try{
                 Intent intent1 = new Intent(MainActivity.this,Main2Activity.class);
-                startActivity(intent1);
+                startActivity(intent1);}
+                catch(Exception e){
+                    Toast.makeText(this, "Error", Toast.LENGTH_SHORT).show();}
                 break;
             case R.id.showLocation:
+                try{
                 Intent intent8 = new Intent(Intent.ACTION_VIEW,Uri.parse("geo:25.6189921,85.1749185,17z"));
-                startActivity(intent8);
+                startActivity(intent8);}
+                catch(Exception e){
+                    Toast.makeText(this, "Error", Toast.LENGTH_SHORT).show();}
                 break;
 
             case R.id.openWebPage:
+                try{
                 Intent intent9 = new Intent(Intent.ACTION_VIEW,Uri.parse("http://facebook.com/"));
-                startActivity(intent9);
+                startActivity(intent9);}
+                catch(Exception e){
+                    Toast.makeText(this, "Error", Toast.LENGTH_SHORT).show();}
                 break;
 
             case R.id.viewIntent:
+                try{
                 Intent intent10 = new Intent(Intent.ACTION_VIEW);
-                startActivity(intent10);
+                startActivity(intent10);}
+                catch(Exception e){
+                    Toast.makeText(this, "Error", Toast.LENGTH_SHORT).show();}
                 break;
 
             case R.id.letsGetPro:
+                try{
                 Intent intent17 = new Intent(Intent.ACTION_VIEW,Uri.parse("http://Instagram.com/"));
-                startActivity(intent17);
+                startActivity(intent17);}
+                catch(Exception e){
+                    Toast.makeText(this, "Error", Toast.LENGTH_SHORT).show();}
                 break;
         }
 
