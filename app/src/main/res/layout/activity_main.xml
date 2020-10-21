@@ -67,4 +67,35 @@
         android:text="Login to Instagram"
             />
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Say Something To Start Fun ...!"
+            android:layout_above="@+id/mic_fab"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp"
+
+            />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/mic_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:elevation="0dp"
+            android:backgroundTint="#C6B8B8"
+            app:rippleColor="#501919"
+            android:foregroundTint="#9B9E56"
+            android:src="@drawable/ic_baseline_mic_24"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            />
+
+    </RelativeLayout>
+
 </LinearLayout>

@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">DearApp</string>
+    <string name="tts_no_engines">There were no Text to Speech Engines located in the device</string>
 </resources>
